@@ -6,7 +6,6 @@ import dayjs from 'dayjs'
 import { useMemo } from 'react'
 import { NarrowArrowLeftIcon } from '../icons'
 import { AuthorSocial } from './AuthorSocial'
-import { Navbar } from './Navbar'
 import { PageContent } from './PageContent'
 import { SocialShare } from './SocialShare'
 
@@ -35,7 +34,6 @@ export const SubPageComponents = ({ data }: Props) => {
 	return (
 		<Box w="100%">
 			<Box mx="auto" maxW="1080px">
-				<Navbar accentColor={data?.project?.accentColor} meta={data?.metadata.elements ?? []} />
 				<Box as="section" mt={{ base: '30px', lg: '60px' }} w="100%" h="100%">
 					<Flex position="relative" maxW="1260px" justify="center" align="flex-start" mx="auto">
 						{isBigScreen && (

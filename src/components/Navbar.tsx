@@ -26,6 +26,8 @@ export const Navbar = ({ meta, accentColor }: Props) => {
 		<Flex
 			align="center"
 			w="100%"
+			mx="auto"
+			maxW="1080px"
 			px={4}
 			minH="52px"
 			gap={'6px'}
