@@ -1,6 +1,6 @@
 import { Avatar, Text, VStack } from '@chakra-ui/react'
+import { SocialShare } from '@notice-org/renderer-helper'
 import { Author } from './Author'
-import { SocialShare } from './SocialShare'
 
 interface Props {
 	authorSrc: string

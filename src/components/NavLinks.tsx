@@ -1,7 +1,7 @@
 'use client'
 
+import { MenuIcon } from '@/icons'
 import { Box, IconButton } from '@chakra-ui/react'
-import { MenuIcon } from '../icons'
 
 export const NavLinks = () => {
 	return (
